@@ -1,0 +1,82 @@
+
+
+body{
+  font-family: 'Kulim Park', sans-serif;
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 13%;
+  margin-right: 13%;
+  margin-top: 4%;
+  border-radius: 10px 10px 10px 10px;
+}
+
+body > div > div{
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+header{
+  color: rgb(30, 220, 30);
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  width: 22%;
+  height: auto;
+}
+
+nav{
+  background-color: rgb(30, 220, 30);
+  display: block;
+}
+
+nav > div{
+  display: flex;
+  justify-content: center;
+  padding: 1.5%;
+}
+
+nav button{
+  margin-right: 4px;
+}
+
+main{
+  color: white;
+  padding-bottom: 5%;
+}
+
+section{
+  margin-bottom: 2%;
+}
+
+section > div{
+  display: block;
+  margin: 1%;
+  border-radius: 12px 12px 12px 12px;
+}
+
+h3{
+  display: inline-block;
+}
+
+span{
+  display: block;
+}
+
+footer{
+  color: white;
+  padding-bottom: 1%;
+  padding-right: 3%;
+  text-align: right;
+}
